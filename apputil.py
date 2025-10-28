@@ -63,6 +63,6 @@ class GroupEstimate:
 
         if missing_count > 0:
             print(f"{missing_count} missing group(s) encountered. Returned NaN for them.")
-
-        return preds
+        return np.array(preds)
+        
 
